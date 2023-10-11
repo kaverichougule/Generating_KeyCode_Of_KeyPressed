@@ -1,4 +1,4 @@
-let audio=new Audio('./audio1.mp3')
+let audio=new Audio('./assets/audio/audio2.mp3')
 document.addEventListener("keydown",WhichKeyPressed)
 function WhichKeyPressed(event){
     audio.play();
