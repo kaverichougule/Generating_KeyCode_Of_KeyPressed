@@ -1,5 +1,7 @@
+let audio=new Audio('./audio1.mp3')
 document.addEventListener("keydown",WhichKeyPressed)
 function WhichKeyPressed(event){
+    audio.play();
     // Taking Input
     let keypressed=event.key;
     let youPressed=document.getElementById('key_pressed')
