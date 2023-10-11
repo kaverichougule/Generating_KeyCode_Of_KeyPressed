@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #51237f;
+}
+
+.box{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    background-color: #2e0c50;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.heading_text{
+    padding: 10px;
+    font-size: 40px;
+}
+.displayNumber{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 40px;
+}
